@@ -6,6 +6,9 @@
    "build":"npm i --prefix backend && npm i --prefix frontend && npm run build --prefix frontend",
     "start":"npm run start --prefix backend"
   },
+  "engines": {
+    "node":">=20.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Akshatkumarsingh047/chatify-app.git"
