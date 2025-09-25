@@ -10,7 +10,7 @@ const __dirname=path.resolve()
 //make ready for deployment
 if(process.env.Node_ENV==="production"){
     app.use(express.static(path.join(__dirname,"../frontend/dist")))
-    app.use("*",(_,res)=>{
+    app.get("*",(_,res)=>{
         res.sendFile(path.join(__dirname,"../frontend","dist","index.html"))
     })
 }
