@@ -32,7 +32,7 @@ function ChatPage() {
         {/* RIGHT SIDE */}
         <div
           className={`
-            flex flex-col bg-slate-900/50 backdrop-blur-sm
+            flex flex-col bg-slate-900/50 backdrop-blur-sm 
             ${selectedUser ? "flex" : "hidden"}   // mobile
             md:flex md:flex-1                     // desktop always visible, flex-1
           `}
